@@ -1,0 +1,63 @@
+.default{
+  height: 300px;
+  width: 300px;
+}
+.generoClasica{
+  margin: 0px;
+  padding: 3px;
+  background-color: #DB7093;
+}
+.generoRap{
+  margin: 0px;
+  padding: 3px;
+  background-color: #8FBC8F;
+}
+.generoPop{
+  margin: 0px;
+  padding: 3px;
+  background-color: #6495ED;
+}
+.generoMetal{
+  margin: 0px;
+  padding: 3px;
+  background-color: #A52A2A;
+}
+.generoSalsa{
+  margin: 0px;
+  padding: 3px;
+  background-color: #E9967A;
+}
+.generoSingenero{
+  margin: 0px;
+  padding: 3px;
+  background-color: #C0C0C0;
+}
+.generoFyb{
+  margin: 0px;
+  padding: 3px;
+  background-color: #008080;
+}
+.cardsContainer {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+}
+.card {
+  width: 16rem;
+  margin-top: 5px;
+}
+
+.flex{
+  display: flex;
+  width: 400px;
+  height: 600px;
+}
+p.card-title.hi{
+  font-weight: bold;
+}
+
+
