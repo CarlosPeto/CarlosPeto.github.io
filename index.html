@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
@@ -39,11 +39,10 @@
                                 <a class="nav-link" href="info.html">¿Tienes dudas?</a>
                             </li>
                             <li class="nav-item">
-                                <div class="btn-cuenta"></div>
                                     <div class="btn-cuenta"><!--boton cuenta-->
                                         <button type="button" class="btn btn-primary cuenta" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">
-                                        Cuenta
+                                        <img src="images/account.png"/>
                                     </button>
 
                                     <!-- Modal -->
@@ -94,202 +93,183 @@
             </nav>
 
         </header>
+        <div class="presentacion">
+            <div><p class="wellcome">BIENVENIDOS A LA MEJOR TIENDA DE <br> LIBROS RELACIONADOR CON LA FILOSOFIA</p> 
+            <p class="description">Contamos con gran variedad de libros, comics y mangas para que puedas tener una lectura variada</p>
+        </div>
+            <div>
+                <img class="img-h" src="images/fondo_div.jpg" alt="">
+            </div>
+        
+        </div>
     </div>
+
+
 
     <div class="container">
         <div class="cardsContainer">
             <div class="card cardSeparation">
-                <h6 class="generoClasica">Musica clasica</h6>
-                <img src="./images/motzart.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/el_anticristo.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Motzart: Requiem</h5>
+                    <h5 class="card-title">El anticristo</h5>
                     <p class="card-text">
-                        Autor: W.A Motzart
+                        Autor: Friedrich Nietzsche
                     </p>
-                    <a href="requiem.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="el_anticristo.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
             <div class="card">
-                <h6 class="generoRap">Rap</h6>
-                <img src="./images/vida_can.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/el_mito_de_sisifo.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body cardSeparation">
-                    <h5 class="card-title">Vida</h5>
+                    <h5 class="card-title">El mito de sisifo</h5>
                     <p class="card-text">
-                        Autor: Canserbero
+                        Autor: Albert Camus
                     </p>
-                    <a href="vida.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="el_mito_de_sisifo.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card cardSeparation">
-                <h6 class="generoRap">Rap</h6>
-                <img src="./images/muerte_can.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/el_sublime_objeto_de_la_ideologia.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Muerte</h5>
+                    <h5 class="card-title">El sublime objeto de la ideologia</h5>
                     <p class="card-text">
-                        Autor: Canserbero
+                        Autor: Slavoj Zizek
                     </p>
-                    <a href="muerte.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="el_sublime_objeto_de_la_ideologia.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoPop">Pop</h6>
-                <img src="./images/michael_bad.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/la_senda_del_perdedor.jpeg" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Bad</h5>
+                    <h5 class="card-title">La senda del perdedor</h5>
                     <p class="card-text">
-                        Autor: Michael Jackson
+                        Autor: Charles Bukowski
                     </p>
-                    <a href="bad.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="la_senda_del_perdedor.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoPop">Pop</h6>
-                <img src="./images/michael_thriller.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/caligula.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Thriller</h5>
+                    <h5 class="card-title">Caligula</h5>
                     <p class="card-text">
-                        Autor: Michael jackson
+                        Autor: Albert Camus
                     </p>
-                    <a href="thriller.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="caligula.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoMetal">Metal</h6>
-                <img src="./images/ramstein_mutter.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="libro">Libro</h6>
+                <img src="./images/apologia_a_socrates.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Mutter</h5>
+                    <h5 class="card-title">Apologia a socrates</h5>
                     <p class="card-text">
-                        Autor: Ramstein
+                        Autor: Platon(Aristocles)
                     </p>
-                    <a href="mutter.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="apologia_a_socrates.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoMetal">Metal</h6>
-                <img src="./images/ramstein_zeit.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="comic">Comic</h6>
+                <img src="./images/watchmen.webp" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Zeit</h5>
+                    <h5 class="card-title">Watchmen</h5>
                     <p class="card-text">
-                        Autor: Ramstein
+                        Autor: Alan Moore
                     </p>
-                    <a href="zeit.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="watchmen.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoSalsa">Salsa</h6>
-                <img src="./images/hector_comedia.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="comic">Comic</h6>
+                <img src="./images/the_sandman.webp" class="card-img-top" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">Comedia</h5>
+                    <h5 class="card-title">The sandman</h5>
                     <p class="card-text">
-                        Autor: Hector Lavoe
+                        Autor: Neil Gaiman
                     </p>
-                    <a href="comedia.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="the_sandman.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card cardSeparation">
-                <h6 class="generoSalsa">Salsa</h6>
-                <img src="./images/hector_detidepende.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="manga">Manga</h6>
+                <img src="./images/oyasumi_punpun.webp" alt="imagen" />
                 <div class="card-body">
-                    <h5 class="card-title">De ti depende</h5>
+                    <h5 class="card-title">Oyasumu Punpun</h5>
                     <p class="card-text">
-                        Autor: Hector Lavoe
+                        Autor: Inio Asano
                     </p>
-                    <a href="de_ti_depende.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="oyasumi_punpun.html" class="btn btn-primary">Detalles</a>
                 </div>
             </div>
 
             <div class="card">
-                <h6 class="generoSalsa">Salsa</h6>
-                <img src="./images/hector_lavoz.jpg" class="card-img-top" alt="imagen" />
+                <h6 class="manga">Manga</h6>
+                <img src="./images/death_note.jpg" class="card-img-top" alt="imagen" />
                 <div class="card-body cardSeparation">
-                    <h5 class="card-title">La voz</h5>
+                    <h5 class="card-title">Death Note</h5>
                     <p class="card-text">
-                        Autor: Hector Lavoe
+                        Autor: Tsugumi Oba
                     </p>
-                    <a href="la_voz.html" class="btn btn-primary">Detalles del album</a>
+                    <a href="death_note.html " class="btn btn-primary">Detalles</a>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" />
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="form-label">Descripción</label>
-
-                        <textarea class="form-control" placeholder="" id="floatingTextarea2"
-                            style="height: 100px"></textarea>
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Sin genero</label>
-
-                        <select class="form-select" id="inputGroupSelect01">
-                            <option selected>Sin genero</option>
-                            <option value="1">Salsa</option>
-                            <option value="2">Metal</option>
-                            <option value="3">Rap</option>
-                            <option value="4">Flamenco</option>
-                            <option value="5">Pop</option>
-                            <option value="6">otro</option>
-                        </select>
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <input type="file" class="form-control" id="inputGroupFile02" />
-                    </div>
-
-                    <div class="text-center input-group">
-                        <img src="./images/default.jpg" class="rounded mx-auto d-block default" alt="imagen generica" />
-                    </div>
-                    <div class="input-group mb-3 margenTop">
-                        <div class="row g-3">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="dd/mm/yyyy"
-                                    aria-label="First name" />
-                            </div>
-                            <div class="col">
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" class="form-control"
-                                        aria-label="Amount (to the nearest dollar)" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <button type="button" class="btn btn-primary">+Agregar</button>
-                    </div>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Cerrar
-                    </button>
-                </div>
-            </div>
-        </div>
     </div>
 </body>
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tempore quaerat non, nihil perferendis voluptatum aliquid expedita adipisci culpa ab officiis. Minus exercitationem cum natus unde, fugit nobis a beatae.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="index.html">Inventario</a></li>
+            <li><a href="info.html">¿Tienes dudas?</a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+       <a href="#">Carlos Eduardo Peto Velazquez</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"> <img src="images/icons8-facebook-25.png" alt=""> </a></li>
+            <li><a class="twitter" href="#"> <img src="images/icons8-twitter-25.png" alt=""> </i></a></li>
+            <li><a class="linkedin" href="#"> <img src="images/icons8-linkedin-rodeado-de-círculo-25.png" alt=""> </i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
 
 </html>
