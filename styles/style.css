@@ -59,5 +59,18 @@
 p.card-title.hi{
   font-weight: bold;
 }
-
-
+/*Estilos Nuevos */ 
+/*estilo de logo */ 
+.logoTienda{
+  
+  border-radius: 10%;
+  height: 100px;
+  width: 100px;
+}
+/*titulo*/
+a.title{
+  padding-left: 10px;
+}
+div.btn-cuenta{
+padding-left: 550px;
+}
