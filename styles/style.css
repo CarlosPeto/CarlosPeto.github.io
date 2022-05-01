@@ -16,24 +16,25 @@
 }
 /*cards*/
 .cardsContainer {
-  width: auto;
-  height: auto;
-  padding: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 30px;
+  padding: 3%;
 }
 .card {
   width: 16rem;
   margin-top: 5px;
+  padding: 5px;
 }
-
 .flex{
   display: flex;
   width: 400px;
   height: 600px;
 }
+
 p.card-title.hi{
   font-weight: bold;
 }
@@ -50,10 +51,10 @@ a.title{
   padding-left: 20px;
 }
 div.btn-cuenta{
-padding-left: 550px;
+  padding-left: 1000%;
 
-height: 40px;
-width: 40px;
+box-sizing: border-box;
+
 }
 button.cuenta{
   background-color:#212529;
@@ -64,11 +65,16 @@ button.cuenta:hover{
   background-color: #2AB793;
   border-color: #2AB793;
 }
-
+div.cuenta > img{
+  width: 10%;
+  height: auto;
+  box-sizing: border-box;
+}
 div.presentacion{
   background-color: #212529;
   color: #ffffff;
   text-align: center;
+  width: 100%;
 
   
 }
@@ -84,13 +90,12 @@ p.description{
 
 .img-h{
 height: 412px;
-width: 1000px;
+width: 100%;
 border-radius: 1%;
-padding-bottom: 10px;
-
+padding: 0 10px 10px 10px;
 }
 
-/*prueba*/
+/*estilo footer*/
 .site-footer
 {
   background-color:#26272b;
@@ -249,4 +254,30 @@ padding-bottom: 10px;
     margin-right:0;
     font-weight:600
   }
+} 
+
+/*responsive dising*/
+
+
+@media (max-width: 1324px) and (min-width: 991px)  {  
+  .cardsContainer{
+    display: flex !important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+  }
+} 
+@media (max-width: 990px) and (min-width: 447px)  {  
+  .cardsContainer{
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+  }
+}  
+
+
+.container-general{
+background-color: #212529cd;
+width: 100%;
 }
+
+
