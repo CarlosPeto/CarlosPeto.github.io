@@ -51,7 +51,7 @@ a.title{
   padding-left: 20px;
 }
 div.btn-cuenta{
-padding: 0 0 0 40vw;
+padding: 0 0 0 35vw;
 
 box-sizing: border-box;
 
@@ -280,11 +280,18 @@ padding: 0 10px 10px 10px;
     box-sizing: border-box;
     
     }
-}
 
+}
 .container-general{
 background-color: #212529cd;
 width: 100%;
+}
+.container{
+  text-align: justify;
+}
+img.portada{
+  height: 75% ;
+
 }
 
 
