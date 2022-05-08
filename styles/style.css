@@ -28,7 +28,10 @@
   width: 16rem;
   margin-top: 5px;
   padding: 5px;
+  margin-bottom: 100px;
+  margin-right: 100px;
 }
+
 .flex{
   display: flex;
   width: 400px;
@@ -51,8 +54,6 @@ a.title{
   padding-left: 20px;
 }
 div.btn-cuenta{
-padding: 0 0 0 35vw;
-
 box-sizing: border-box;
 
 }
@@ -64,13 +65,14 @@ button.cuenta{
 button.cuenta:hover{
   background-color: #2AB793;
   border-color: #2AB793;
+  transform: translateY(-7px);
 }
 div.cuenta > img{
   width: 10%;
   height: auto;
   box-sizing: border-box;
 }
-div.presentacion{
+.presentacion{
   background-color: #212529;
   color: #ffffff;
   text-align: center;
@@ -226,6 +228,7 @@ padding: 0 10px 10px 10px;
 {
   color:#fff;
   background-color:#29aafe
+
 }
 .social-icons.size-sm a
 {
@@ -237,14 +240,17 @@ padding: 0 10px 10px 10px;
 .social-icons a.facebook:hover
 {
   background-color:#3b5998;
+  transform: translateY(-7px);
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00aced;
+  transform: translateY(-7px);
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#007bb6;
+  transform: translateY(-7px);
 }
 @media (max-width:767px)
 {
@@ -271,27 +277,36 @@ padding: 0 10px 10px 10px;
     display: flex!important;
     flex-wrap: wrap!important;
     justify-content: center!important;
+  
   }
-}  
-@media (max-width: 1399px) and (min-width: 991px)  {  
-  div.btn-cuenta{
-    padding: 0 0 0 20vw;
-    
-    box-sizing: border-box;
-    
-    }
-
+  .logoTienda{
+  
+  visibility: hidden;
 }
+}  
+
 .container-general{
 background-color: #212529cd;
 width: 100%;
 }
 .container{
   text-align: justify;
+  padding-left: 300px;
 }
 img.portada{
-  height: 75% ;
+  height: 68% ;
 
 }
-
-
+.detalles{
+  padding-top: 30px;
+  
+}
+.btn-home{
+  margin-top: 10%;
+}
+.nav-top{
+  padding: 0 0 0 0 !important;
+}
+.portada-index{
+  height: 85%;
+}
